@@ -5,6 +5,7 @@ go 1.18
 require (
 	github.com/buger/jsonparser v1.1.1
 	github.com/ethereum/go-ethereum v1.10.16
+	github.com/go-numb/go-dydx v0.0.0-20230213112400-79ab8b44fc12
 	github.com/google/go-querystring v1.1.0
 	github.com/gorilla/websocket v1.4.2
 	github.com/miguelmota/go-solidity-sha3 v0.1.1
