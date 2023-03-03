@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/go-numb/go-dydx/types"
+	"github.com/enachb/go-dydx/types"
 )
 
 type Private struct {

@@ -6,13 +6,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/go-numb/go-dydx/types"
+	"github.com/enachb/go-dydx/types"
 	"github.com/umbracle/ethgo/jsonrpc"
 
-	"github.com/go-numb/go-dydx/helpers"
-	"github.com/go-numb/go-dydx/onboard"
-	"github.com/go-numb/go-dydx/private"
-	"github.com/go-numb/go-dydx/public"
+	"github.com/enachb/go-dydx/helpers"
+	"github.com/enachb/go-dydx/onboard"
+	"github.com/enachb/go-dydx/private"
+	"github.com/enachb/go-dydx/public"
 )
 
 type Client struct {

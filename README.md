@@ -1,5 +1,5 @@
 # go-dydx
-![dYdX exhange DEX](https://github.com/go-numb/go-dydx/blob/master/types/icon.png)
+![dYdX exhange DEX](https://github.com/enachb/go-dydx/blob/master/types/icon.png)
 
 dYdX exchange API version3.
 
@@ -36,10 +36,10 @@ import (
 
 	"github.com/labstack/gommon/log"
 
-	"github.com/go-numb/go-dydx"
-	"github.com/go-numb/go-dydx/helpers"
-	"github.com/go-numb/go-dydx/private"
-	"github.com/go-numb/go-dydx/types"
+	"github.com/enachb/go-dydx"
+	"github.com/enachb/go-dydx/helpers"
+	"github.com/enachb/go-dydx/private"
+	"github.com/enachb/go-dydx/types"
 )
 
 const (
@@ -113,9 +113,9 @@ import (
 	"time"
 	"log"
 
-	"github.com/go-numb/go-dydx"
-	"github.com/go-numb/go-dydx/public"
-	"github.com/go-numb/go-dydx/realtime"
+	"github.com/enachb/go-dydx"
+	"github.com/enachb/go-dydx/public"
+	"github.com/enachb/go-dydx/realtime"
 )
 
 
@@ -181,4 +181,4 @@ EXIT:
 
 ## License
 
-[MIT](https://github.com/go-numb/go-dydx/blob/master/LICENSE)
+[MIT](https://github.com/enachb/go-dydx/blob/master/LICENSE)
