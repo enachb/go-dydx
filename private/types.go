@@ -2,6 +2,7 @@ package private
 
 import (
 	"log"
+	"net/http"
 	"net/url"
 	"strconv"
 	"time"
@@ -18,6 +19,7 @@ type Private struct {
 
 	RateLimit *types.RateLimit
 	Logger    *log.Logger
+	Transport *http.Transport
 }
 
 type ApiBaseOrder struct {

@@ -82,6 +82,11 @@ func (p *Private) execute(method string, requestPath string, headers map[string]
 	c := &http.Client{
 		Timeout: 5 * time.Second,
 	}
+
+	if p.Transport != nil {
+		c.Transport = p.Transport
+	}
+
 	return c.Do(req)
 
 }
