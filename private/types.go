@@ -201,6 +201,7 @@ type Order struct {
 	PostOnly        bool      `json:"postOnly"`
 	CreatedAt       time.Time `json:"createdAt"`
 	ExpiresAt       time.Time `json:"expiresAt"`
+	ReduceOnly      bool      `json:"reduceOnly"`
 }
 
 type OrderListResponse struct {
